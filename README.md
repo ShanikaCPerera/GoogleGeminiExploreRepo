@@ -1,6 +1,7 @@
 ﻿# GoogleGeminiExploreRepo
 
-Gemini Explorer 
+<h1>Gemini Explorer<h1> 
+
 The code creates a chat program using steamlit. The chat is powered by the Google Gemini Pro. The user can interact with the model powered by Google Gemini.
 
 Instructions to run the file
