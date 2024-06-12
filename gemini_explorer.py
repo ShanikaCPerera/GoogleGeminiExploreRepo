@@ -79,9 +79,9 @@ for index, message in enumerate(st.session_state.messages):
         parts = [Part.from_text(message["content"])]
     )
 
-    if index != 0:
-        with st.chat_message(message["role"]):
-            st.markdown(message["content"])
+    #if index != 0:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
     #appending what we talked so far to the gemini chat history - so the model is aware of what we are doing - multi-turn conversation
     chat.history.append(content)
